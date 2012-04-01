@@ -29,7 +29,6 @@ import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.shared.Lock;
 import com.hp.hpl.jena.util.FileManager;
 
-//import org.srs.srs_knowledge.knowledge_engine.*;
 
 public class OntologyDB
 {
@@ -162,7 +161,6 @@ public class OntologyDB
     public String getNamespaceByPrefix(String namespacePrefix)
     {
 	model.enterCriticalSection(Lock.READ);
-	//http://www.srs-project.eu/ontologies/ipa-kitchen-map.owl#
 	String pre = model.getNsPrefixURI(namespacePrefix);
 	model.leaveCriticalSection();
 	return pre;
