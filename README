@@ -3,3 +3,5 @@ This software is a simple console-like program to interact with SparQl.
 The implementation is based on Jena and Pellet, which should be downloaded separately. 
 
 The project is built using Eclipse. External jars should be added manually.
+
+Status: Currently, it is only at a prelimiary stage, and it is expected to be more usable.
